@@ -62,7 +62,7 @@ Run: docker compose up -d
 
 # 9. Test the Web App
 
-Visit: http://54.147.130.125\
+Visit: http://54.147.130.125
 Output: \'Hello from your Aashutosh's container!\'
 
 # 10. Troubleshooting
