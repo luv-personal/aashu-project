@@ -1,5 +1,5 @@
 ---
-title: DevOps Assignment Setup Using AWS EC2, Docker, and GitHub
+DevOps Assignment Setup Using AWS EC2, Docker, and GitHub
 ---
 
 # 1. Launching an EC2 Instance on AWS
@@ -34,7 +34,7 @@ ssh -i \"devops.pem\" ubuntu@ec2-54-147-130-125.compute-1.amazonaws.com
 
 # 5. Create a New User
 
-\- Add a user: **sudo adduser deployuser**
+- Add a user: **sudo adduser deployuser**
 - Grant Docker permissions: **sudo usermod -aG docker deployuser**
 - Switch to the new user: su - deployuser
 
@@ -43,9 +43,9 @@ ssh -i \"devops.pem\" ubuntu@ec2-54-147-130-125.compute-1.amazonaws.com
 1\. Create a working directory: mkdir dev-project && cd dev-project\
 2. Create the setup script: vi bootstrap.sh\
 3. Make it executable and run it:\
-**chmod +x bootstrap.sh\
-./bootstrap.sh\
-**
+- chmod +x bootstrap.sh\
+- ./bootstrap.sh\
+
 
 # 7. Create Flask Web App
 
@@ -67,7 +67,7 @@ Output: \'Hello from your Aashutosh's container!\'
 
 # 10. Troubleshooting
 
-\- Check logs: docker logs \<container-id\>
+- Check logs: docker logs \<container-id\>
 - View container status: docker ps -a
 
 # GitHub Workflow
